@@ -1,0 +1,830 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*GENERAL CSS*/
+
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #153d6f;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.header img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+nav {
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 75px;
+}
+
+.navbar {
+    flex: 1;
+    text-align: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.navbar ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #72A0C1;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+nav .fa{
+    display: none;
+}
+
+.titlebox {
+    border: 3px solid #72A0C1;
+    width: 90%;
+    color: #72A0C1;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.titlebox h1 {
+    font-size: 50px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.titlebox p {
+   margin: 20px 0px 10px 0px; 
+    font-size: 18px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+
+ 
+
+@media (max-width: 700px) {
+    
+    .navbar ul li {
+        display: block;
+    }
+
+    .navbar {
+        position: fixed;
+        background: #72A0C1;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+        /* Remove or fix background property */
+    }
+    nav .fa{
+        display:block;
+        color:white;
+        margin:10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    
+    .navbar ul{
+        padding: 30px;
+        
+    }
+    .titlebox h1 {
+        font-size: 30px; 
+    }
+
+}
+
+
+.pages {
+   
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #2A4D7B;   
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.row {
+    height: flex;
+     margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+     padding-left: 15px;
+    padding-right: 10px;
+    
+    
+}
+
+.row a {
+    display: block;
+    text-decoration: none; 
+    color: inherit; 
+  }
+
+
+
+
+.pages-col {
+    background-color: #4A658D;
+    flex-basis: 20%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.pages-col h2 {
+    
+    text-decoration: underline;
+}
+h2 {
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin: 10px 0;
+}
+
+.pages-col:hover {
+    box-shadow: 0 0 100px 0px rgba(0, 0, 0, 3);
+}
+ 
+
+h3 {
+    color:black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin: 10px 0;
+    }
+
+.caseyVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack the text and video vertically */
+    padding: 25px;
+    background-color: #7e8dac; 
+    color: white; /* Text color */
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    width: 80%; /* Adjust this based on your design */
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*ADVANTAGES PAGE CSS------------------------------------------------------------------------*/
+
+
+
+
+
+/*ADVANTAGES OVERVIEW CSS*/
+
+.advpages {
+  padding: 25px;
+  padding-top: 50px;
+  background-color: #2A4D7B;
+  text-align: center;
+    padding-bottom: 15px;
+}
+
+.adv-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ padding-bottom: 15px;
+}
+
+.adv-col {
+  flex: 0 1 calc(33.33% - 20px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.adv-col details {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #4A658D;
+    box-shadow: 3px 3px #ffbf69;
+    color: white;
+
+}
+
+.adv-col summary {
+  font-weight: bold;
+  cursor:pointer;
+    font-family: "Poppins", sans-serif;
+   color: white;
+    font-size: 22px;
+}
+
+.adv-col p {    
+    font-family: "Poppins", sans-serif;
+   color: white;
+    font-size: 16px;
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .adv-col {
+    flex: 0 1 calc(100% - 20px);
+  }
+}
+
+/*ADVANTAGES EXAMPLES CSS*/
+
+
+.advexamples {
+     padding: 25px;
+  padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2A4D7B;
+      text-align: left;
+
+}
+
+
+.adv-example {
+    width: 100%;
+    max-width: 1100px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  
+
+}
+
+.adv-ex-col {
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.adv-ex-col details {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #4A658D;
+    box-shadow: 3px 3px #ffbf69;
+    color: white;
+}
+
+.adv-ex-col summary {
+  font-weight: bold;
+  cursor:pointer;
+    font-family: "Poppins", sans-serif;
+   color: white;
+    font-size: 22px;
+}
+.adv-ex-col p {    
+    font-family: "Poppins", sans-serif;
+   color: white;
+    font-size: 16px;
+}
+
+.adv-ex-col img {
+    width: 80%; 
+    height: auto;
+    max-width: 100%; 
+    display: block; 
+}
+}
+
+.adv-ex-col iframe {
+    width: 100%; /* Make the video fill its container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure the video does not exceed its original size */
+    display: block; /* Ensure proper rendering */
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+    .advexamples {
+        padding: 10px;
+    }
+    
+    .adv-example {
+        max-width: 90%;
+    }
+}
+
+
+/*TED TALK - ADVANATAGES PAGE */ 
+
+.tedtalk {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  background-color: #72A0C1; 
+}
+
+.tedtalk-box {
+  flex: 1;
+  padding: 10px;
+  padding-bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.1); 
+  border-radius: 5px; /* Rounded corners */
+  margin-right: 12px; /* Add some space between the sora-box and video */
+}
+
+.tedtalk-box h2 {
+  font-size:20px;
+    text-align: left;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+.tedtalk-box p {
+  font-size: 18px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.videoWrapper2 {
+  position: relative;
+  padding-bottom: 35%; /* Adjust this to change the aspect ratio and size */
+  width: 55%; /* Adjust this based on your design */
+}
+
+.videoWrapper2 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .tedtalk {
+    flex-direction: column; 
+  }
+  .tedtalk-box{
+    margin-right: 0; 
+    margin-bottom: 15px; 
+  }
+  .videoWrapper2 {
+    padding-bottom: 70%; /* Adjust the aspect ratio for the video */
+    width: 100%; /* Ensure the video takes up full width on smaller screens */
+  }
+}
+        
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DISADVANTAGES CSS ------------------------------------------------------- */
+
+.dispages {
+  padding: 20px;
+  padding-top: 50px;
+  background-color: #2A4D7B;
+  text-align: center;
+}
+
+.dispages p { font-family: "Poppins", sans-serif;
+   color: white;
+    font-size: 16px;}
+
+
+.dis-col {
+  width: 100%; 
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.dis-col details {
+  border-radius: 5px;
+  padding: 20px; 
+  background-color: #4A658D;
+    text-align: left;
+    box-shadow: 3px 3px #ffbf69;
+    color: white;
+}
+
+.dis-col summary {
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+   color: white;
+    font-size: 20px;
+}
+
+
+.dis-col p {    
+    font-family: "Poppins", sans-serif;
+   color: white;
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+    
+.ai-links {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center; /* Center items along the cross axis */
+    padding: 20px; /* Add padding for better spacing */
+
+}
+
+.ai-links img {
+    margin: 0; /* Remove default margin on images */
+}
+
+
+
+@media(max-width: 700px){
+    .row{flex-direction: column;
+        padding-right: 10px;
+    }
+   
+}
+
+
+
+
+ #introduction {
+        text-align: center;
+     padding-top: 15px;
+    }
+
+#introduction h2 { 
+    color:white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+}
+
+
+    #introduction p {
+      font-size: 18px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    padding:15px;
+    padding-left: 15px;
+     width: 80%;
+
+    }
+
+
+#introduction li {
+        font-size: 18px;
+        color: white;
+       font-family: "Poppins", sans-serif;
+    padding:15px;
+    }
+
+
+
+
+
+#scenarios {
+        text-align: left;
+    }
+
+#scenarios p {
+      font-size: 18px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    padding:15px;
+
+    }
+
+#scenarios h3 {
+    text-align: left;
+      font-size: 20px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    padding:15px;
+
+    }
+
+
+       
+
+
+/*Home page Infog */ 
+.infoG {
+  display: flex;
+    flex-direction: row;
+  background-color: #4A658D;
+  padding: 12px;
+ 
+}
+
+.infoG-box {
+  flex: 1;
+  text-align: left;
+  background-color:#7e8dac;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+
+.infoG-box h2 {
+  font-size: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+    margin-top: 20px; 
+    padding-left: 15px;
+   
+}
+
+.infoG-box p,
+.infoG-box li {
+  font-size: 18px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+     padding-left: 20px;
+}
+
+.infoG-img {
+  flex: 1;
+  text-align: right;
+  border-radius: 5px;
+}
+
+ #infograhic1 {
+            width: 380px;
+            height: 300px;
+            margin-top: 20px; 
+        }
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .infoG {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .infoG-box, .infoG-img {
+    flex: none;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+/*FUTURE SCENARIOS CSS*/
+
+.futurepages{
+     padding: 25px;
+  padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2A4D7B;
+      text-align: left;
+
+}
+
+
+.future-scenario {
+    width: 100%;
+    max-width: 1100px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.future-col {
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.future-col details {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #4A658D;
+    box-shadow: 3px 3px #ffbf69;
+    color: white;
+}
+
+
+.future-col summary  {
+  font-weight: bold;
+  cursor:pointer;
+    font-family: "Poppins", sans-serif;
+   color: white;
+    font-size: 22px;
+}
+
+.future-col p {    
+    font-family: "Poppins", sans-serif;
+   color: white;
+    font-size: 16px;
+}
+.future-col img {
+    width: 80%; 
+    height: auto;
+    max-width: 100%; 
+    display: block; 
+}
+
+
+
+.future-col iframe {
+    width: 100%; /* Make the video fill its container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure the video does not exceed its original size */
+    display: block; /* Ensure proper rendering */
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+    .futurepages {
+        padding: 10px;
+    }
+    
+    .futurescenario{
+        max-width: 90%;
+    }
+}
+
+
+
+
+
+/*SORA*/
+
+.sora {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  background-color: #72A0C1; 
+}
+
+.sora-box {
+  flex: 1;
+  padding: 10px;
+  padding-bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.1); 
+  border-radius: 5px; /* Rounded corners */
+  margin-right: 12px; /* Add some space between the sora-box and video */
+}
+
+.sora-box summary {
+  font-size: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0px; /* Add some spacing between heading and paragraph */
+}
+
+.sora-box p {
+  font-size: 18px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.videoWrapper3 {
+  position: relative;
+  padding-bottom: 35%; 
+  width: 55%; 
+        overflow: hidden;
+    border-radius: 20px; /* Adjust the radius as needed */
+
+}
+
+.videoWrapper3 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .sora {
+    flex-direction: column; 
+  }
+  .sora-box {
+    margin-right: 0; /* Remove margin between sora-box and video */
+    margin-bottom: 15px; /* Add margin below each sora-box for spacing */
+  }
+  .videoWrapper3 {
+    padding-bottom: 70%; /* Adjust the aspect ratio for the video */
+    width: 100%; /* Ensure the video takes up full width on smaller screens */
+  }
+}
