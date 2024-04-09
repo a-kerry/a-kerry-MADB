@@ -6,7 +6,6 @@
 
 /*GENERAL CSS*/
 
-
 .header {
     min-height: 100vh;
     width: 100%;
@@ -18,18 +17,20 @@
 }
 
 
-.header img {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
+.header img#indeximg {
+        position: absolute;
+        top: 82%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       max-width: 45%; 
+        max-height: 45%; 
+    }
 nav {
     display: flex;
     padding: 2% 4%;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
 }
 
 .navbar {
@@ -71,8 +72,10 @@ nav .fa{
     display: none;
 }
 
+
 .titlebox {
     border: 3px solid #72A0C1;
+    border-radius: 3px;
     width: 90%;
     color: #72A0C1;
     position: absolute;
@@ -132,6 +135,10 @@ nav .fa{
     .titlebox h1 {
         font-size: 30px; 
     }
+    
+     .header img#indeximg {
+            top: 90%; /* Adjusted position for smaller screens */
+        }
 
 }
 
@@ -179,16 +186,27 @@ p {
     color: inherit; 
   }
 
+@media(max-width: 700px){
+    .row{flex-direction: column;
+        padding-right: 10px;
+    }} 
+
+
+
 
 
 
 .pages-col {
     background-color: #4A658D;
     flex-basis: 20%;
-    border-radius: 10px;
+    border-radius: 3px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    border-color: #f7b267;
+    border-style: inset;
+    border-width: 2px;
+    
 }
 .pages-col h2 {
     
@@ -217,21 +235,97 @@ h3 {
     margin: 10px 0;
     }
 
+
+
+/*Home page Infog */
+
+.infoG {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  align-items: center;
+    background-color: #4A658D;
+  padding: 10px;
+padding-right: 20px;
+}
+
+.infoG-box {
+  flex: 1; 
+  text-align: left; 
+  margin-right: 20px; 
+    background-color:#7e8dac;
+  border-radius: 2px;
+  padding: 10px;
+    box-shadow: 4px 6px #f7b267; 
+    border-style: solid;
+  border-width: 2px;
+    border-color: black;
+}
+
+.infoG-img {
+  flex: 1; 
+  text-align: center; /
+  margin-left: 20px; 
+}
+
+
+.infoG-box h2 {
+    text-align: left;
+  font-size: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+    margin-top: 20px; 
+    padding-left: 15px;
+   }
+
+.infoG-box p,
+.infoG-box li {
+  font-size: 18px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+     padding-left: 20px;
+}
+
+
+#infograhic1 {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .infoG {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+     .infoG-box,
+  .infoG-img {
+    margin: 10px; /* Remove margin on smaller screens */
+}
+}
+/*Youtube Video CSS*/ 
 .caseyVideo {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Stack the text and video vertically */
+    flex-direction: column; 
     padding: 25px;
     background-color: #7e8dac; 
-    color: white; /* Text color */
+    color: white; 
+    
 }
 
 .videoWrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 56.25%; 
     height: 0;
-    width: 80%; /* Adjust this based on your design */
+    width: 80%; 
+     border-radius: 2px; 
+    overflow: hidden;
+    box-shadow: 4px 6px #f7b267; 
+    border-style: solid;
+  border-width: 2px;
+    border-color: black;
 }
 
 .videoWrapper iframe {
@@ -242,13 +336,48 @@ h3 {
     height: 100%;
 }
 
+.stationary-button {
+font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 30px; 
+  background-color: #f7b267;
+  cursor: pointer;
+  font-size: 18px; 
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.stationary-button:hover {
+  background-color: #0056b3;
+}
+
+/* Centering container */
+.button {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 
 /*ADVANTAGES PAGE CSS------------------------------------------------------------------------*/
 
+ 
 
-
+.header img#advantages{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       max-width: 35%; 
+        max-height: 35%; 
+    }
 
 
 /*ADVANTAGES OVERVIEW CSS*/
@@ -275,10 +404,10 @@ h3 {
 }
 
 .adv-col details {
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 10px;
   background-color: #4A658D;
-    box-shadow: 3px 3px #ffbf69;
+    box-shadow: 3px 3px #f7b267;
     color: white;
 
 }
@@ -324,7 +453,7 @@ h3 {
     width: 100%;
     max-width: 1100px;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 2px;
   
 
 }
@@ -335,10 +464,10 @@ h3 {
 }
 
 .adv-ex-col details {
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 10px;
   background-color: #4A658D;
-    box-shadow: 3px 3px #ffbf69;
+    box-shadow: 3px 3px #f7b267;
     color: white;
 }
 
@@ -388,7 +517,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   padding: 15px;
-  background-color: #72A0C1; 
+  background-color: #788CAA; 
 }
 
 .tedtalk-box {
@@ -396,9 +525,15 @@ h3 {
   padding: 10px;
   padding-bottom: 5px;
   background-color: rgba(255, 255, 255, 0.1); 
-  border-radius: 5px; /* Rounded corners */
-  margin-right: 12px; /* Add some space between the sora-box and video */
+  border-radius: 2px; 
+  margin-right: 12px; 
+    box-shadow: 4px 6px #f7b267; 
+    border-style: solid;
+  border-width: 2px;
+    border-color: black;
 }
+
+
 
 .tedtalk-box h2 {
   font-size:20px;
@@ -417,8 +552,12 @@ h3 {
 
 .videoWrapper2 {
   position: relative;
-  padding-bottom: 35%; /* Adjust this to change the aspect ratio and size */
-  width: 55%; /* Adjust this based on your design */
+  padding-bottom: 35%; 
+  width: 55%; 
+    box-shadow: 4px 6px #f7b267; 
+    border-style: solid;
+  border-width: 2px;
+    border-color: black;
 }
 
 .videoWrapper2 iframe {
@@ -430,7 +569,7 @@ h3 {
 }
 
 
-/* Media query for smaller screens */
+
 @media screen and (max-width: 768px) {
   .tedtalk {
     flex-direction: column; 
@@ -477,6 +616,17 @@ h3 {
 
 /* DISADVANTAGES CSS ------------------------------------------------------- */
 
+
+.header img#disadvantages{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       max-width: 35%; 
+        max-height: 35%; 
+    }
+
+
 .dispages {
   padding: 20px;
   padding-top: 50px;
@@ -496,11 +646,11 @@ h3 {
 }
 
 .dis-col details {
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 20px; 
   background-color: #4A658D;
     text-align: left;
-    box-shadow: 3px 3px #ffbf69;
+    box-shadow: 3px 3px #f7b267;
     color: white;
 }
 
@@ -528,6 +678,7 @@ h3 {
 
 
 
+
     
 .ai-links {
     background-color: #FFFFFF;
@@ -539,20 +690,30 @@ h3 {
 }
 
 .ai-links img {
-    margin: 0; /* Remove default margin on images */
+    margin: 0; 
 }
 
-
-
-@media(max-width: 700px){
-    .row{flex-direction: column;
-        padding-right: 10px;
+@media screen and (max-width: 768px) {
+    .ai-links {
+        flex-wrap: wrap;
+        justify-content: center;
     }
-   
+
+    .ai-links a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+
+    .ai-links img {
+        width: 60%; /* Adjust size of images inside circle */
+        height: auto;
+    }
 }
-
-
-
 
  #introduction {
         text-align: center;
@@ -616,69 +777,6 @@ h3 {
        
 
 
-/*Home page Infog */ 
-.infoG {
-  display: flex;
-    flex-direction: row;
-  background-color: #4A658D;
-  padding: 12px;
- 
-}
-
-.infoG-box {
-  flex: 1;
-  text-align: left;
-  background-color:#7e8dac;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-
-
-.infoG-box h2 {
-  font-size: 20px;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 10px;
-    margin-top: 20px; 
-    padding-left: 15px;
-   
-}
-
-.infoG-box p,
-.infoG-box li {
-  font-size: 18px;
-  color: white;
-  font-family: "Poppins", sans-serif;
-     padding-left: 20px;
-}
-
-.infoG-img {
-  flex: 1;
-  text-align: right;
-  border-radius: 5px;
-}
-
- #infograhic1 {
-            width: 380px;
-            height: 300px;
-            margin-top: 20px; 
-        }
-
-
-/* Media query for smaller screens */
-@media screen and (max-width: 768px) {
-  .infoG {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .infoG-box, .infoG-img {
-    flex: none;
-    width: 100%;
-    text-align: center;
-  }
-}
 
 
 
@@ -687,7 +785,19 @@ h3 {
 
 
 
-/*FUTURE SCENARIOS CSS*/
+
+
+/*---------------------------------FUTURE SCENARIOS CSS-----------------------------------------------*/
+
+
+.header img#futureicon{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       max-width: 35%; 
+        max-height: 35%; 
+    }
 
 .futurepages{
      padding: 25px;
@@ -705,7 +815,7 @@ h3 {
     width: 100%;
     max-width: 1100px;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .future-col {
@@ -714,10 +824,10 @@ h3 {
 }
 
 .future-col details {
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 10px;
   background-color: #4A658D;
-    box-shadow: 3px 3px #ffbf69;
+    box-shadow: 3px 3px #f7b267;
     color: white;
 }
 
@@ -772,7 +882,8 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   padding: 15px;
-  background-color: #72A0C1; 
+  background-color: #788CAA; 
+   
 }
 
 .sora-box {
@@ -780,11 +891,15 @@ h3 {
   padding: 10px;
   padding-bottom: 5px;
   background-color: rgba(255, 255, 255, 0.1); 
-  border-radius: 5px; /* Rounded corners */
-  margin-right: 12px; /* Add some space between the sora-box and video */
+  border-radius: 3px; 
+  margin-right: 12px;
+      box-shadow: 4px 6px #f7b267; 
+    border-style: solid;
+  border-width: 2px;
+    border-color: black;
 }
 
-.sora-box summary {
+.sora-box h2 {
   font-size: 20px;
   color: white;
   font-family: "Poppins", sans-serif;
@@ -802,7 +917,10 @@ h3 {
   padding-bottom: 35%; 
   width: 55%; 
         overflow: hidden;
-    border-radius: 20px; /* Adjust the radius as needed */
+    box-shadow: 4px 6px #f7b267; 
+    border-style: solid;
+  border-width: 2px;
+    border-color: black;
 
 }
 
