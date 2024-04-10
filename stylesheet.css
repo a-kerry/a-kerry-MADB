@@ -876,7 +876,7 @@ font-family: "Poppins", sans-serif;
 
 
 
-/*SORA*/
+/*------SORA-------*/
 
 .sora {
   display: flex;
@@ -946,3 +946,24 @@ font-family: "Poppins", sans-serif;
     width: 100%; /* Ensure the video takes up full width on smaller screens */
   }
 }
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------Additional Resources CSS-----------------------------------------------*/
+
+
+.header img#resourcesicon{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       max-width: 35%; 
+        max-height: 35%; 
+    }
