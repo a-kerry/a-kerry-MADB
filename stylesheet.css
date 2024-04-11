@@ -36,6 +36,7 @@ nav {
 .navbar {
     flex: 1;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .navbar ul li {
@@ -48,7 +49,7 @@ nav {
 .navbar ul li a {
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     font-family: "Poppins", sans-serif;
 }
 
@@ -83,6 +84,7 @@ nav .fa{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    padding-top:20px;
     padding-bottom: 75px;
 }
 
@@ -94,7 +96,7 @@ nav .fa{
 
 .titlebox p {
    margin: 20px 0px 10px 0px; 
-    font-size: 18px;
+    font-size: 22px;
     color: white;
     font-family: "Poppins", sans-serif;
 }
@@ -144,7 +146,6 @@ nav .fa{
 
 
 .pages {
-   
     width: 100%;
     margin: auto;
     text-align: center;
@@ -152,20 +153,43 @@ nav .fa{
     background-color: #2A4D7B;   
 }
 
-h1 {
-    font-size: 36px;
+
+ #introduction {
+        text-align: center;
+     padding-top: 15px;
+    }
+
+#introduction h2 { 
+    color:white;
+    text-align: center;
+    font-size: 21px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
+    padding: 8px;
 }
 
-p {
-    color: black;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
+
+    #introduction p {
+    text-align: center;
+    font-size: 16px;
+    color: white;
     font-family: "Poppins", sans-serif;
-}
+    padding:10px;
+    padding-left: 10px;
+     width: 90%;
+
+    }
+
+
+#introduction li {
+        font-size: 18px;
+        color: white;
+       font-family: "Poppins", sans-serif;
+    padding:15px;
+    }
+
+
+
 
 
 .row {
@@ -207,34 +231,24 @@ p {
     border-style: inset;
     border-width: 2px;
     
+    
 }
 .pages-col h2 {
-    
     text-decoration: underline;
-}
-h2 {
-    color:white;
-    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color:green;
+    text-align: left;
     font-size: 24px;
-    font-weight: 600;
     font-family: "Poppins", sans-serif;
     margin: 10px 0;
 }
+
+
 
 .pages-col:hover {
     box-shadow: 0 0 100px 0px rgba(0, 0, 0, 3);
 }
  
-
-h3 {
-    color:black;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    margin: 10px 0;
-    }
-
 
 
 /*Home page Infog */
@@ -281,10 +295,10 @@ padding-right: 20px;
 
 .infoG-box p,
 .infoG-box li {
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   font-family: "Poppins", sans-serif;
-     padding-left: 20px;
+padding-left: 18px;
 }
 
 
@@ -350,7 +364,7 @@ font-family: "Poppins", sans-serif;
 }
 
 .stationary-button:hover {
-  background-color: #0056b3;
+  background-color: #7e8dac;
 }
 
 /* Centering container */
@@ -382,12 +396,41 @@ font-family: "Poppins", sans-serif;
 
 /*ADVANTAGES OVERVIEW CSS*/
 
+
+
+
 .advpages {
   padding: 25px;
   padding-top: 50px;
   background-color: #2A4D7B;
   text-align: center;
     padding-bottom: 15px;
+}
+
+.advpages h2 { 
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+}
+
+.advpages h3 { 
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+}
+h2 {
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin: 10px 0;
 }
 
 .adv-row {
@@ -398,6 +441,7 @@ font-family: "Poppins", sans-serif;
 }
 
 .adv-col {
+    text-align: left;
   flex: 0 1 calc(33.33% - 20px);
   margin-bottom: 20px;
   box-sizing: border-box;
@@ -420,13 +464,25 @@ font-family: "Poppins", sans-serif;
     font-size: 22px;
 }
 
-.adv-col p {    
+.adv-col p {  
     font-family: "Poppins", sans-serif;
    color: white;
     font-size: 16px;
 
 }
 
+
+
+.adv-col ul {  
+    padding-left: 10px;}
+
+
+.adv-col li { 
+    font-family: "Poppins", sans-serif;
+   color: white;
+    font-size: 16px;
+
+}
 
 @media screen and (max-width: 768px) {
   .adv-col {
@@ -446,6 +502,15 @@ font-family: "Poppins", sans-serif;
     background-color: #2A4D7B;
       text-align: left;
 
+}
+
+.advexamples h2 { 
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
 }
 
 
@@ -536,7 +601,7 @@ font-family: "Poppins", sans-serif;
 
 
 .tedtalk-box h2 {
-  font-size:20px;
+  font-size:22px;
     text-align: left;
   color: white;
   font-family: "Poppins", sans-serif;
@@ -634,6 +699,15 @@ font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
+.dispages h2 { 
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+}
+
 .dispages p { font-family: "Poppins", sans-serif;
    color: white;
     font-size: 16px;}
@@ -679,6 +753,7 @@ font-family: "Poppins", sans-serif;
 
 
 
+
     
 .ai-links {
     background-color: #FFFFFF;
@@ -687,6 +762,16 @@ font-family: "Poppins", sans-serif;
     align-items: center; /* Center items along the cross axis */
     padding: 20px; /* Add padding for better spacing */
 
+}
+
+.ai-links-sec h3 {
+    text-align: center;
+      font-size: 30px;
+        color: black;
+        font-family: "Poppins", sans-serif;
+    padding:15px;
+    
+    
 }
 
 .ai-links img {
@@ -714,41 +799,6 @@ font-family: "Poppins", sans-serif;
         height: auto;
     }
 }
-
- #introduction {
-        text-align: center;
-     padding-top: 15px;
-    }
-
-#introduction h2 { 
-    color:white;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    padding: 10px;
-}
-
-
-    #introduction p {
-      font-size: 18px;
-        color: white;
-        font-family: "Poppins", sans-serif;
-    padding:15px;
-    padding-left: 15px;
-     width: 80%;
-
-    }
-
-
-#introduction li {
-        font-size: 18px;
-        color: white;
-       font-family: "Poppins", sans-serif;
-    padding:15px;
-    }
-
-
 
 
 
@@ -900,7 +950,8 @@ font-family: "Poppins", sans-serif;
 }
 
 .sora-box h2 {
-  font-size: 20px;
+    text-align: left;
+  font-size: 22px;
   color: white;
   font-family: "Poppins", sans-serif;
   margin-bottom: 0px; /* Add some spacing between heading and paragraph */
@@ -913,6 +964,7 @@ font-family: "Poppins", sans-serif;
 }
 
 .videoWrapper3 {
+    
   position: relative;
   padding-bottom: 35%; 
   width: 55%; 
@@ -967,3 +1019,102 @@ font-family: "Poppins", sans-serif;
        max-width: 35%; 
         max-height: 35%; 
     }
+
+
+
+
+.res-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ padding-bottom: 15px;
+}
+
+.res-col {
+  flex: 0 1 calc(33.33% - 20px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.res-col details {
+  border-radius: 2px;
+  padding: 10px;
+  background-color: #4A658D;
+    box-shadow: 3px 3px #f7b267;
+    color: white;
+
+}
+
+.res-col summary {
+  font-weight: bold;
+  cursor:pointer;
+    font-family: "Poppins", sans-serif;
+   color: white;
+    font-size: 22px;
+}
+
+
+.res-col h3 {    
+    text-decoration: underline;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+   color: white;
+    font-size: 18px;
+
+}
+.res-col p {    
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+   color: white;
+    font-size: 16px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .res-col {
+    flex: 0 1 calc(100% - 20px);
+  }
+}
+
+
+
+.conclusion {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  background-color: #788CAA; 
+}
+
+.conclusion h3 {    
+    text-decoration: ;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+   color: white;
+    font-size: 18px;
+
+}
+
+.conclusion-box {
+  flex: 1;
+  padding: 10px;
+  padding-bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.1); 
+  border-radius: 2px; 
+  margin-right: 12px; 
+    box-shadow: 4px 6px #f7b267; 
+    border-style: solid;
+  border-width: 2px;
+    border-color: black;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .conclusion {
+    flex-direction: column; 
+  }
+  .conclusion-box {
+    margin-right: 0; /* Remove margin between sora-box and video */
+    margin-bottom: 15px; /* Add margin below each sora-box for spacing */
+  }
+}
