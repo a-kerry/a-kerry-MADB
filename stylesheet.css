@@ -28,6 +28,9 @@ html {
         max-height: 45%; 
     }
 
+.active {
+    color:green !important; 
+}
 nav {
     display: flex;
     padding: 2% 4%;
@@ -86,7 +89,8 @@ nav .fa{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    padding:20px;
+    padding-bottom: 30px;
+   padding: 10px;
 }
 
 .titlebox h1 {
@@ -217,7 +221,7 @@ nav .fa{
     color: inherit; 
   }
 
-@media screen and (max-width: 700px){
+@media (max-width: 700px){
     .row{flex-direction: column;
         padding-right: 10px;
     }} 
@@ -319,7 +323,7 @@ padding-left: 10px;
 }
 
 /* Media query for smaller screens */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .infoG {
     flex-direction: column; /* Stack items vertically on smaller screens */
   }
@@ -495,7 +499,7 @@ h2 {
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .adv-col {
     flex: 0 1 calc(100% - 20px);
   }
@@ -576,7 +580,7 @@ h2 {
 }
 
 /* Adjustments for smaller screens */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .advexamples {
         padding: 10px;
     }
@@ -646,7 +650,7 @@ h2 {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and  (max-width: 768px) {
   .tedtalk {
     flex-direction: column; 
   }
@@ -789,7 +793,7 @@ h2 {
     margin: 0; 
 }
 
-@media screen and (max-width: 700px) {
+@media  screen and (max-width: 768px) {
     .ai-links {
         flex-wrap: wrap;
         justify-content: center;
@@ -923,7 +927,7 @@ h2 {
 }
 
 /* Adjustments for smaller screens */
-@media screen and (max-width: 700px) {
+@media screen and  (max-width: 600px) {
     .futurepages {
         padding: 10px;
     }
@@ -996,7 +1000,7 @@ h2 {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and  (max-width: 768px) {
   .sora {
     flex-direction: column; 
   }
@@ -1081,7 +1085,7 @@ h2 {
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width:768px) {
   .res-col {
     flex: 0 1 calc(100% - 20px);
   }
@@ -1120,7 +1124,7 @@ h2 {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .conclusion {
     flex-direction: column; 
   }
