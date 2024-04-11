@@ -208,7 +208,7 @@ nav .fa{
     color: inherit; 
   }
 
-@media(max-width: 700px){
+@media screen and (max-width: 700px){
     .row{flex-direction: column;
         padding-right: 10px;
     }} 
@@ -306,7 +306,7 @@ padding-left: 18px;
 }
 
 /* Media query for smaller screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .infoG {
     flex-direction: column; /* Stack items vertically on smaller screens */
   }
@@ -482,7 +482,7 @@ h2 {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .adv-col {
     flex: 0 1 calc(100% - 20px);
   }
@@ -563,7 +563,7 @@ h2 {
 }
 
 /* Adjustments for smaller screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .advexamples {
         padding: 10px;
     }
@@ -633,7 +633,7 @@ h2 {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .tedtalk {
     flex-direction: column; 
   }
@@ -776,7 +776,7 @@ h2 {
     margin: 0; 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
     .ai-links {
         flex-wrap: wrap;
         justify-content: center;
@@ -910,7 +910,7 @@ h2 {
 }
 
 /* Adjustments for smaller screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .futurepages {
         padding: 10px;
     }
@@ -983,7 +983,7 @@ h2 {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .sora {
     flex-direction: column; 
   }
@@ -1068,7 +1068,7 @@ h2 {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .res-col {
     flex: 0 1 calc(100% - 20px);
   }
@@ -1107,7 +1107,7 @@ h2 {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .conclusion {
     flex-direction: column; 
   }
