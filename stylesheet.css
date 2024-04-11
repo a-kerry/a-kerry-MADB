@@ -132,9 +132,14 @@ nav .fa{
         
     }
     .titlebox h1 {
-        font-size: 30px; 
+        font-size: 25px;
     }
     
+    .titlebox p {
+   font-size: 15px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
      .header img#indeximg {
             top: 90%; /* Adjusted position for smaller screens */
         }
