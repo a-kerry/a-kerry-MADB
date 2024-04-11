@@ -23,7 +23,7 @@ I received invaluable advice and feedback from my peer support group, lecturers,
 Hence, I would linke to extend my gratitude to these individuals. 
 
 
-Images:
+IMAGES:
 
    Canva:
    The majortity of images on my page were created using CANVA, a graphic design platform which allows users to creat a variety of video content roaylty or copyright free. 
@@ -32,7 +32,7 @@ Images:
 
    Flaticon: some images of AI tools logos were used from flat icon.com, where teh use of photos is commercially allowed by following usuage rules.
 
-Videos:
+VIDEOS:
 
    Youtube: Following Youtube's terms of service, you are allowed to embed a YouTube video on your website. Acknowledging the creators work. 
 
@@ -40,10 +40,10 @@ Videos:
 
 
 
- Tools: 
+ TOOLS: 
  
   Additionally, I often used webpages such as W3schools, CSS tricks and various YouTube tutorials to support the technical development of my project. 
   Finally, I adopted multiple AI tools throughout the development of my projecting using Chat-GPT to check for syntax errors and re-arrange my code appropriately. I also             used Grammarly to check the writing in my webpage for any spelling or grammar errors to support the readability of content. 
 
-
+REFRENCES:
 
