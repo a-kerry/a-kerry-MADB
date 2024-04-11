@@ -30,7 +30,6 @@ nav {
     padding: 2% 4%;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 30px;
 }
 
 .navbar {
@@ -139,6 +138,10 @@ nav .fa{
      .header img#indeximg {
             top: 90%; /* Adjusted position for smaller screens */
         }
+     .titlebox {
+        top: 30%; /* Adjust the top value to increase space */
+    }
+
 
 }
 
