@@ -7,6 +7,9 @@ This Document Provides an overview of the project and content.
 As well as the acknowledgements to tools and resources used in the development stage. 
 
 
+License:
+The content and images used in this webpage are intended for educational purposes only, with no intention of making commercial gain. 
+
 
 ABOUT THE PAGE:
 
@@ -20,29 +23,27 @@ I received invaluable advice and feedback from my peer support group, lecturers,
 Hence, I would linke to extend my gratitude to these individuals. 
 
 
-   Images:
+Images:
+
+   Canva:
+   The majortity of images on my page were created using CANVA, a graphic design platform which allows users to creat a variety of video content roaylty or copyright free. 
+
+  Instagram: I used from instagram in my Disadvantages page from: https://www.instagram.com/kwebbelkop/?hl=en following the instagram copyright and community guidelines. 
+
+   Flaticon: some images of AI tools logos were used from flat icon.com, where teh use of photos is commercially allowed by following usuage rules.
+
+Videos:
+
+   Youtube: Following Youtube's terms of service, you are allowed to embed a YouTube video on your website. Acknowledging the creators work. 
+
+   TED- talk: TED talk allows embedding for non-commerical use, following TED talks guidlines and rules. 
 
 
 
-   Videos:
-
-
-
- tools: 
+ Tools: 
  
   Additionally, I often used webpages such as W3schools, CSS tricks and various YouTube tutorials to support the technical development of my project. 
   Finally, I adopted multiple AI tools throughout the development of my projecting using Chat-GPT to check for syntax errors and re-arrange my code appropriately. I also             used Grammarly to check the writing in my webpage for any spelling or grammar errors to support the readability of content. 
 
 
-Canva
-All images used in WebWellness were created with Canva, a graphic design platform that allows users to create social media graphics, presentations, posters, documents, and other visual content.
 
-Acknowledgments
-
-I extend my gratitude to the lecturers, as well as the graduate teaching assistants, for their continuous feedback throughout the development of this project. I also would like to thank my peer support group, whose assistance in refining the project and conducting user testing was central to completing this project.
-
-License
-
-The content and images used in WebWellness are intended for educational purposes only.
-
-Thank you for visiting the WebWellness project!
