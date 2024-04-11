@@ -36,7 +36,6 @@ nav {
 .navbar {
     flex: 1;
     text-align: center;
-    padding-bottom: 20px;
 }
 
 .navbar ul li {
