@@ -3,7 +3,9 @@
     padding: 0;
 }
 
-
+html { 
+    scroll-behavior:smooth;
+}
 /*GENERAL CSS*/
 
 .header {
@@ -25,6 +27,7 @@
        max-width: 45%; 
         max-height: 45%; 
     }
+
 nav {
     display: flex;
     padding: 2% 4%;
@@ -63,6 +66,7 @@ nav {
     transition: 0.3s;
 }
 
+
 .navbar ul li:hover::after {
     width: 100%;
 }
@@ -82,7 +86,7 @@ nav .fa{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    padding-bottom: 75px;
+    padding:20px;
 }
 
 .titlebox h1 {
@@ -288,20 +292,24 @@ padding-right: 20px;
 
 .infoG-box h2 {
     text-align: left;
-  font-size: 20px;
+  font-size: 22px;
   color: white;
   font-family: "Poppins", sans-serif;
   margin-bottom: 10px;
     margin-top: 20px; 
-    padding-left: 15px;
+    padding-left: 10px;
    }
+
+.infoG-box ul {  
+    padding-left: 25px;}
+
 
 .infoG-box p,
 .infoG-box li {
-  font-size: 16px;
+  font-size: 18px;
   color: white;
   font-family: "Poppins", sans-serif;
-padding-left: 18px;
+padding-left: 10px;
 }
 
 
@@ -337,7 +345,7 @@ padding-left: 18px;
     padding-bottom: 56.25%; 
     height: 0;
     width: 80%; 
-     border-radius: 2px; 
+     border-radius: 8px; 
     overflow: hidden;
     box-shadow: 4px 6px #f7b267; 
     border-style: solid;
@@ -510,7 +518,7 @@ h2 {
 .advexamples h2 { 
     color:white;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     padding: 10px;
@@ -590,7 +598,7 @@ h2 {
 
 .tedtalk-box {
   flex: 1;
-  padding: 10px;
+  padding: 12px;
   padding-bottom: 5px;
   background-color: rgba(255, 255, 255, 0.1); 
   border-radius: 2px; 
@@ -705,7 +713,7 @@ h2 {
 .dispages h2 { 
     color:white;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     padding: 10px;
@@ -713,7 +721,7 @@ h2 {
 
 .dispages p { font-family: "Poppins", sans-serif;
    color: white;
-    font-size: 16px;}
+    font-size: 18px;}
 
 
 .dis-col {
