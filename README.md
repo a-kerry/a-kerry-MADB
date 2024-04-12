@@ -32,13 +32,25 @@ IMAGES:
 
    Flaticon: some images of AI tools logos were used from flat icon.com, where teh use of photos is commercially allowed by following usuage rules.
 
+   Screenshots: from my own activity taking screen grabs of AI tools in practice
+
 VIDEOS:
 
+due to the nature of my topic inluding videos was vital 
    Youtube: Following Youtube's terms of service, you are allowed to embed a YouTube video on your website. Acknowledging the creators work. 
 
    TED- talk: TED talk allows embedding for non-commerical use, following TED talks guidlines and rules. 
 
+   videos used:
+         https://www.youtube.com/embed/Ygj9vBF_WUk?si=zN--9Vp8X_HHgt7D
+         https://www.youtube.com/embed/Sp6K3qpVFO0?si=AwFo4JYSIeD5rUeq
+         https://embed.ted.com/talks/yejin_choi_why_ai_is_incredibly_smart_and_shockingly_stupid? 
+         https://www.youtube.com/embed/HK6y8DAPN_0?si=xCApG38qcNGI9Mkx
 
+   all follow usuage guidlines and further more are used to enhcane UX for educational purposes only. 
+         
+         
+         
 
  TOOLS: 
  
