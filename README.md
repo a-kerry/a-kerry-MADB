@@ -9,10 +9,6 @@ This Document Provides an overview of the project and content.
 As well as the acknowledgements to tools and resources used in the development stage. 
 
 
-
-
-
-
 License:
 The content and images used in this webpage are intended for educational purposes only, with no intention of making commercial gain. 
 
@@ -33,7 +29,8 @@ providing an Overview, Advantages, Disadvantages, Future Scenarios and Other sou
 ACKNOWLEDGEMENTS: 
 
 I received invaluable advice and feedback from my peer support group, lecturers, graduate tutors and external testers.  
-Hence, I would linke to extend my gratitude to these individuals. Futhermore i used various tools, youtube tutorials and academic citations which hav all been cited in the report evaluation document. 
+Hence, I would linke to extend my gratitude to these individuals. 
+Futhermore i used various tools, youtube tutorials and academic citations which hav all been cited in the report evaluation document. 
 
 
 
@@ -71,7 +68,7 @@ due to the nature of my topic inluding videos was vital
 
    all follow usuage guidlines and further more are used to enhcane UX for educational purposes only. 
          
-         
+These videos were vital in enhancing the user expeience and therefore, all credit goes to each creator or company resposible for the creation of the videos. 
 
 
 
