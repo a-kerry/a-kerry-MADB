@@ -61,6 +61,7 @@ due to the nature of my topic inluding videos was vital
    TED- talk: TED talk allows embedding for non-commerical use, following TED talks guidlines and rules. 
 
    videos used:
+   
          https://www.youtube.com/embed/Ygj9vBF_WUk?si=zN--9Vp8X_HHgt7D
          
          https://www.youtube.com/embed/Sp6K3qpVFO0?si=AwFo4JYSIeD5rUeq
