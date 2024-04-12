@@ -130,6 +130,7 @@ Eapen,  tojin (2023) How generative AI can augment human creativity, Harvard Bus
 
 Haleem, A. et al. (2022) ‘Artificial Intelligence (AI) applications for marketing: A literature-based study’, International Journal of Intelligent Networks, 3, pp. 119–132. doi:10.1016/j.ijin.2022.08.005. 
 
+
 Hu, N. (2022) Ai and creativity, Harvard Data Science Review. Available at: https://hdsr.mitpress.mit.edu/pub/1j7onk28/release/5 
 
 Lee, H.-K. (2022) ‘Rethinking creativity: Creative industries, AI and everyday creativity’, Media, Culture & Society, 44(3), pp. 601–612. doi:10.1177/01634437221077009. 
@@ -145,4 +146,4 @@ McKendrick, J. (2023) AI mimics human creativity, but also boosts it, Forbes. Av
 Miller, A.I. (2019) The artist in the machine: The world of AI-powered creativity, MIT Press. Available at: https://doi.org/10.7551/mitpress/11585.001.0001 
 
 
-
+Stokel-Walker, C. (2023) One of gaming’s biggest YouTubers wants to replace himself with ai, Wired. Available at: https://www.wired.com/story/kwebbelkop-youtube-ai-clone/ 
