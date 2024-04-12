@@ -62,8 +62,11 @@ due to the nature of my topic inluding videos was vital
 
    videos used:
          https://www.youtube.com/embed/Ygj9vBF_WUk?si=zN--9Vp8X_HHgt7D
+         
          https://www.youtube.com/embed/Sp6K3qpVFO0?si=AwFo4JYSIeD5rUeq
-         https://embed.ted.com/talks/yejin_choi_why_ai_is_incredibly_smart_and_shockingly_stupid? 
+         
+         https://embed.ted.com/talks/yejin_choi_why_ai_is_incredibly_smart_and_shockingly_stupid?\
+         
          https://www.youtube.com/embed/HK6y8DAPN_0?si=xCApG38qcNGI9Mkx
 
    all follow usuage guidlines and further more are used to enhcane UX for educational purposes only. 
