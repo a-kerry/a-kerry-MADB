@@ -262,8 +262,8 @@ nav .fa{
     padding: 20px 12px;
     box-sizing: border-box;
     border-color: #f7b267;
-    border-style: inset;
-    border-width: 2px;
+    border-style: solid;
+    border-width: 4px;
     
     
 }
@@ -301,7 +301,7 @@ padding-right: 20px;
   flex: 1; 
   text-align: left; 
   margin-right: 20px; 
-    background-color:#7e8dac;
+    background-color:#395984;
   border-radius: 2px;
   padding: 10px;
     box-shadow: 4px 6px #f7b267; 
@@ -627,7 +627,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   padding: 15px;
-  background-color: #788CAA; 
+  background-color: #395984; 
 }
 
 .tedtalk-box {
@@ -982,7 +982,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   padding: 15px;
-  background-color: #788CAA; 
+  background-color: #395984; 
    
 }
 
@@ -1148,7 +1148,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   padding: 15px;
-  background-color: #788CAA; 
+  background-color: #395984; 
 }
 
 .conclusion h3 {    
@@ -1174,7 +1174,7 @@ h2 {
 }
 
 
-/* Adjustments for smaller screens */
+
 @media screen and (max-width: 768px) {
   .conclusion {
     flex-direction: column; 
