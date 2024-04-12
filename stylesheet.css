@@ -1,3 +1,4 @@
+/*-------------Resetting html margins----------*/
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +7,11 @@
 html { 
     scroll-behavior:smooth;
 }
-/*GENERAL CSS*/
+/*--------------GENERAL CSS and Index Page ----------*/
 
+
+
+/*--------------header styling----------*/
 .header {
     min-height: 100vh;
     width: 100%;
@@ -28,12 +32,18 @@ html {
         max-height: 45%; 
     }
 
+
+/*--------------styling for active Nav----------*/
+
 .active {
     width: 100%;
     border-bottom: 2px solid #f7b267;
     display: block;
     margin: auto;
 }
+
+
+/*-------------- Nav bar styling ----------*/
 
 nav {
     display: flex;
@@ -83,6 +93,8 @@ nav .fa{
 }
 
 
+/*--------------Title box styling ----------*/
+
 .titlebox {
     border: 3px solid #72A0C1;
     border-radius: 3px;
@@ -112,7 +124,7 @@ nav .fa{
 
 
  
-
+/*-------------- Media styling for smaller screens ----------*/
 @media (max-width: 700px) {
     
     .navbar ul li {
@@ -160,6 +172,9 @@ nav .fa{
 }
 
 
+
+
+/*--------------Pages and Intro styling ----------*/
 .pages {
     width: 100%;
     margin: auto;
@@ -206,6 +221,8 @@ nav .fa{
 
 
 
+/*--------------Row styling  ----------*/
+
 
 .row {
     height: flex;
@@ -225,6 +242,8 @@ nav .fa{
     color: inherit; 
   }
 
+
+/*--------------media styling for smaller screens ----------*/
 @media (max-width: 700px){
     .row{flex-direction: column;
         padding-right: 10px;
@@ -329,11 +348,11 @@ padding-left: 10px;
 /* Media query for smaller screens */
 @media screen and (max-width: 600px) {
   .infoG {
-    flex-direction: column; /* Stack items vertically on smaller screens */
+    flex-direction: column; 
   }
      .infoG-box,
   .infoG-img {
-    margin: 10px; /* Remove margin on smaller screens */
+    margin: 10px; 
 }
 }
 /*Youtube Video CSS*/ 
@@ -369,6 +388,8 @@ padding-left: 10px;
     height: 100%;
 }
 
+
+/*--------------back to top button ----------*/
 .stationary-button {
 font-family: "Poppins", sans-serif;
   position: absolute;
@@ -381,6 +402,7 @@ font-family: "Poppins", sans-serif;
   font-size: 18px; 
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
      border-radius: 100px;
+    text-decoration-color: black;
 }
 
 .stationary-button:hover {
@@ -503,6 +525,9 @@ h2 {
     font-size: 16px;
 
 }
+
+
+/*--------------media styling for smaller screens ----------*/
 
 @media screen and (max-width: 768px) {
   .adv-col {
@@ -653,7 +678,7 @@ h2 {
   height: 100%;
 }
 
-
+ /*--------------media styling for smaller screens ----------*/
 
 @media screen and  (max-width: 768px) {
   .tedtalk {
@@ -664,8 +689,8 @@ h2 {
     margin-bottom: 15px; 
   }
   .videoWrapper2 {
-    padding-bottom: 70%; /* Adjust the aspect ratio for the video */
-    width: 100%; /* Ensure the video takes up full width on smaller screens */
+    padding-bottom: 70%; 
+    width: 100%; 
   }
 }
         
@@ -773,7 +798,7 @@ h2 {
 
 
 
-
+ /*--------------AI links styling  ----------*/
     
 .ai-links {
     background-color: #FFFFFF;
@@ -798,6 +823,8 @@ h2 {
     margin: 0; 
 }
 
+
+ /*--------------media styling for smaller screens ----------*/
 @media  screen and (max-width: 768px) {
     .ai-links {
         flex-wrap: wrap;
@@ -820,28 +847,6 @@ h2 {
     }
 }
 
-
-
-#scenarios {
-        text-align: left;
-    }
-
-#scenarios p {
-      font-size: 18px;
-        color: white;
-        font-family: "Poppins", sans-serif;
-    padding:15px;
-
-    }
-
-#scenarios h3 {
-    text-align: left;
-      font-size: 20px;
-        color: white;
-        font-family: "Poppins", sans-serif;
-    padding:15px;
-
-    }
 
 
        
@@ -931,6 +936,31 @@ h2 {
     display: block; /* Ensure proper rendering */
 }
 
+
+ /*--------------Scenarios styling ----------*/
+#scenarios {
+        text-align: left;
+    }
+
+#scenarios p {
+      font-size: 18px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    padding:15px;
+
+    }
+
+#scenarios h3 {
+    text-align: left;
+      font-size: 20px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    padding:15px;
+
+    }
+
+
+
 /* Adjustments for smaller screens */
 @media screen and  (max-width: 600px) {
     .futurepages {
@@ -1004,7 +1034,7 @@ h2 {
   height: 100%;
 }
 
-
+/* Adjustments for smaller screens */
 @media screen and  (max-width: 768px) {
   .sora {
     flex-direction: column; 
@@ -1030,7 +1060,7 @@ h2 {
 
 /*---------------------------------Additional Resources CSS-----------------------------------------------*/
 
-
+/* image styling */
 .header img#resourcesicon{
         position: absolute;
         top: 80%;
@@ -1042,7 +1072,7 @@ h2 {
 
 
 
-
+/* drop down stylings*/
 .res-row {
   display: flex;
   flex-wrap: wrap;
@@ -1090,6 +1120,20 @@ h2 {
 
 }
 
+.res-col ul{
+    padding: 15px;
+}
+
+.res-col a{
+ color: white;
+}
+
+ .res-col a:hover {
+            color: #f7b267 ;
+        }
+
+
+/* Adjustments for smaller screens */
 @media screen and (max-width:768px) {
   .res-col {
     flex: 0 1 calc(100% - 20px);
@@ -1097,6 +1141,8 @@ h2 {
 }
 
 
+
+/* conslusion styling*/
 
 .conclusion {
   display: flex;
@@ -1128,7 +1174,7 @@ h2 {
 }
 
 
-
+/* Adjustments for smaller screens */
 @media screen and (max-width: 768px) {
   .conclusion {
     flex-direction: column; 
