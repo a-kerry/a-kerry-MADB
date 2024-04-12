@@ -33,7 +33,7 @@ providing an Overview, Advantages, Disadvantages, Future Scenarios and Other sou
 ACKNOWLEDGEMENTS: 
 
 I received invaluable advice and feedback from my peer support group, lecturers, graduate tutors and external testers.  
-Hence, I would linke to extend my gratitude to these individuals. 
+Hence, I would linke to extend my gratitude to these individuals. Futhermore i used various tools, youtube tutorials and academic citations which hav all been cited in the report evaluation document. 
 
 
 
