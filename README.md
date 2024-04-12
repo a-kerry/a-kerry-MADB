@@ -81,8 +81,9 @@ These videos were vital in enhancing the user expeience and therefore, all credi
 
  TOOLS: 
  
-  Additionally, I often used webpages such as W3schools, CSS tricks and various YouTube tutorials to support the technical development of my project. 
+  Additionally, I often used webpages such as W3schools, CSS tricks, Webaim, Wave web aim and various YouTube tutorials to support the technical development of my project. 
   Finally, I adopted multiple AI tools throughout the development of my projecting using Chat-GPT to check for syntax errors and re-arrange my code appropriately. I also             used Grammarly to check the writing in my webpage for any spelling or grammar errors to support the readability of content. 
+  
 
 
 
