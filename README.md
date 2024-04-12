@@ -3,12 +3,21 @@ MAD-B Project - 2684438K
 
 ----- The Creative Revolution: Unleashing AI's Impact on Video Projects -----
 
+
+
 This Document Provides an overview of the project and content.
 As well as the acknowledgements to tools and resources used in the development stage. 
 
 
+
+
+
+
 License:
 The content and images used in this webpage are intended for educational purposes only, with no intention of making commercial gain. 
+
+
+
 
 
 ABOUT THE PAGE:
@@ -17,10 +26,19 @@ This website is designed to enhance content creators understanding of AI tools a
 providing an Overview, Advantages, Disadvantages, Future Scenarios and Other sources. 
 
 
+
+
+
+
 ACKNOWLEDGEMENTS: 
 
 I received invaluable advice and feedback from my peer support group, lecturers, graduate tutors and external testers.  
 Hence, I would linke to extend my gratitude to these individuals. 
+
+
+
+
+
 
 
 IMAGES:
@@ -33,6 +51,10 @@ IMAGES:
    Flaticon: some images of AI tools logos were used from flat icon.com, where teh use of photos is commercially allowed by following usuage rules.
 
    Screenshots: from my own activity taking screen grabs of AI tools in practice
+
+
+
+   
 
 VIDEOS:
 
@@ -50,12 +72,22 @@ due to the nature of my topic inluding videos was vital
    all follow usuage guidlines and further more are used to enhcane UX for educational purposes only. 
          
          
+
+
+
+
          
 
  TOOLS: 
  
   Additionally, I often used webpages such as W3schools, CSS tricks and various YouTube tutorials to support the technical development of my project. 
   Finally, I adopted multiple AI tools throughout the development of my projecting using Chat-GPT to check for syntax errors and re-arrange my code appropriately. I also             used Grammarly to check the writing in my webpage for any spelling or grammar errors to support the readability of content. 
+
+
+
+
+
+
 
 
 
